@@ -48,7 +48,7 @@
             this.lbxDiceRoll.ItemHeight = 16;
             this.lbxDiceRoll.Location = new System.Drawing.Point(85, 67);
             this.lbxDiceRoll.Name = "lbxDiceRoll";
-            this.lbxDiceRoll.Size = new System.Drawing.Size(162, 324);
+            this.lbxDiceRoll.Size = new System.Drawing.Size(447, 356);
             this.lbxDiceRoll.TabIndex = 1;
             // 
             // Form1
