@@ -30,6 +30,7 @@
         {
             this.btnRoll = new System.Windows.Forms.Button();
             this.lbxDiceRoll = new System.Windows.Forms.ListBox();
+            this.lblCounter = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnRoll
@@ -51,11 +52,21 @@
             this.lbxDiceRoll.Size = new System.Drawing.Size(447, 356);
             this.lbxDiceRoll.TabIndex = 1;
             // 
+            // lblCounter
+            // 
+            this.lblCounter.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblCounter.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblCounter.Location = new System.Drawing.Point(595, 266);
+            this.lblCounter.Name = "lblCounter";
+            this.lblCounter.Size = new System.Drawing.Size(193, 145);
+            this.lblCounter.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblCounter);
             this.Controls.Add(this.lbxDiceRoll);
             this.Controls.Add(this.btnRoll);
             this.Name = "Form1";
@@ -68,6 +79,7 @@
 
         private System.Windows.Forms.Button btnRoll;
         private System.Windows.Forms.ListBox lbxDiceRoll;
+        private System.Windows.Forms.Label lblCounter;
     }
 }
 
