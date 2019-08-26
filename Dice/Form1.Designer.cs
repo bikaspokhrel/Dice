@@ -35,9 +35,9 @@
             // 
             // btnRoll
             // 
-            this.btnRoll.Location = new System.Drawing.Point(562, 145);
+            this.btnRoll.Location = new System.Drawing.Point(527, 107);
             this.btnRoll.Name = "btnRoll";
-            this.btnRoll.Size = new System.Drawing.Size(125, 72);
+            this.btnRoll.Size = new System.Drawing.Size(261, 110);
             this.btnRoll.TabIndex = 0;
             this.btnRoll.Text = "Roll the Dice";
             this.btnRoll.UseVisualStyleBackColor = true;
@@ -47,18 +47,18 @@
             // 
             this.lbxDiceRoll.FormattingEnabled = true;
             this.lbxDiceRoll.ItemHeight = 16;
-            this.lbxDiceRoll.Location = new System.Drawing.Point(85, 67);
+            this.lbxDiceRoll.Location = new System.Drawing.Point(12, 45);
             this.lbxDiceRoll.Name = "lbxDiceRoll";
-            this.lbxDiceRoll.Size = new System.Drawing.Size(447, 356);
+            this.lbxDiceRoll.Size = new System.Drawing.Size(509, 356);
             this.lbxDiceRoll.TabIndex = 1;
             // 
             // lblCounter
             // 
-            this.lblCounter.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblCounter.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblCounter.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblCounter.Location = new System.Drawing.Point(595, 266);
+            this.lblCounter.Location = new System.Drawing.Point(527, 220);
             this.lblCounter.Name = "lblCounter";
-            this.lblCounter.Size = new System.Drawing.Size(193, 145);
+            this.lblCounter.Size = new System.Drawing.Size(261, 181);
             this.lblCounter.TabIndex = 2;
             // 
             // Form1

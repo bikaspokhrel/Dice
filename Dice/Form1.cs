@@ -35,7 +35,8 @@ namespace Dice
                 //add the values of dice to the list box as a new item
                 lbxDiceRoll.Items.Add("Dice1 = "+ Dice1 + " " + "Dice2 = " +Dice2 + "Dice3 = " + Dice3);//
                 counter++;
-                lblCounter.Text = counter.ToString();
+                lblCounter.Text = ("There were "+ counter.ToString() + " rolls");
+                this.lblCounter.Font = new Font("Arial", 20);
                 if((Dice1 == Dice2) && (Dice2 == Dice3))
                 {
                     RollDiceAgain = false;
